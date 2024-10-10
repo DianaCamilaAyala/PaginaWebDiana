@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusheens Valentine Page Fun</title>
+    <style>
+        body {
+            background: url('fondoPV.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #4b0082;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 5px #aaa;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+        h1:hover {
+            color: #00dbde;
+        }
+        h2 {
+            color: #4682b4;
+            text-align: center;
+            border-bottom: 2px solid #4682b4;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+        h2:hover {
+            color: #fc00ff;
+            border-color: #fc00ff;
+        }
+        p {
+            text-align: center;
+            font-style: italic;
+            color: #2f4f4f;
+            transition: font-size 0.3s ease;
+        }
+        p:hover {
+            font-size: 18px;
+            color: #4b0082;
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        video:hover {
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
+        }
+        .audio-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            background-color: #fff;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+            max-width: 500px;
+        }
+        .audio-container:hover {
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
+        }
+        .audio-container::before {
+            content: '🎵';
+            font-size: 30px;
+            margin-right: 15px;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            border: 3px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            cursor: pointer;
+        }
+        img:hover {
+            transform: scale(1.1);
+            border-color: #fc00ff;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        footer:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my page - Diana Camila Ayala</h1>
+        <p>Fecha: 10/10/2024</p>
+        <h2>Pusheens Valentine</h2>
+        <video width="480" height="320" controls>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.webm" type="video/webm">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <h2>Grovvy Vibes</h2>
+        <div class="audio-container">
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                <source src="audio.ogg" type="audio/ogg">
+                Tu navegador no soporta la etiqueta de audio.
+            </audio>
+        </div>
+        <h2>Bye bye Love</h2>
+        <img src="CatV.gif" alt="GIF o Imagen" width="300">
+        <p>Gracias por visitar mi página web. ¡Espero que te guste!</p>
+    </div>
+    <footer>
+        &copy; 2024 Diana Camila Ayala
+    </footer>
+</body>
+</html>
